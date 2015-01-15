@@ -1,5 +1,5 @@
 /**
- * Created by U6023581 on 1/15/2015.
+ * Created by Navaneeth on 1/15/2015.
  */
 describe("Math helpers specs", function(){
     "use strict";
