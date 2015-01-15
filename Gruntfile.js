@@ -59,6 +59,7 @@ module.exports = function (grunt) {
     grunt.registerTask('default',
         [
             'jshint:all',
-            'jasmine'
+            'jasmine',
+            'karma'
         ]);
 };

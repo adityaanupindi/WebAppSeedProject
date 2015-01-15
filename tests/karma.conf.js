@@ -42,7 +42,7 @@ module.exports = function (config) {
         // available reporters: https://npmjs.org/browse/keyword/karma-reporter
         reporters: ['coverage'],
         preprocessors: {
-            '../WebApplication/**/*.js': 'coverage'
+            '../WebApplication/scripts/**/*.js': 'coverage'
         },
         coverageReporter: {
             type : 'html',
