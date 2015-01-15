@@ -1,0 +1,25 @@
+{
+  "name": "WebApplicationSeedProject",
+  "version": "0.0.1",
+  "authors": [
+    "Navaneeth Agastya <agasthyanavaneeth@gmail.com>"
+  ],
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "lodash": "~2.4.1",
+    "angular": "~1.3.9",
+    "bootstrap" : "~3.3.1"
+
+  }
+}

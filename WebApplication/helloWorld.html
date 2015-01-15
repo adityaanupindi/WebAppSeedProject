@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html ng-app="HelloWorld">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Hello, World!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="lib/bootstrap/dist/css/bootstrap.css"/>
+    <link href="styles/hello-world.css" rel="stylesheet"/>
+</head>
+<body>
+<div class="container-fluid">
+    <div>
+        Hello world Math ;)
+    </div>
+    <div ng-controller="mainController as cntrlr">
+<span>Add </span>
+        <input ng-model="cntrlr.arg1" type="number"/>
+<span>And</span>
+        <input  ng-model="cntrlr.arg2"  type="number"/>
+        <button ng-click="cntrlr.Add()">Done!</button>
+        <div>The result is {{cntrlr.result}}</div>
+    </div>
+</div>
+<script src ="lib/jquery/dist/jquery.js"></script>
+<script src ="lib/lodash/dist/lodash.js"></script>
+<script src = "lib/angular/angular.js"></script>
+<script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+<script src = "scripts/HelloWorldApp.js"></script>
+<script src= "scripts/helpers/mathhelper.js"></script>
+<script src="scripts/mainmodule/controllers/mainController.js"></script>
+</body>
+</html>

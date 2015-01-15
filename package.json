@@ -1,0 +1,23 @@
+{
+  "name": "WebApplicationSeedProject",
+  "version": "0.0.1",
+  "authors": [
+  "Navaneeth Agastya <agasthyanavaneeth@gmail.com>"
+],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-jasmine": "~0.8.1",
+    "load-grunt-tasks": "^2.0.0",
+    "grunt-karma": "~0.8.0",
+    "karma-chrome-launcher": "~0.1.7",
+    "karma-phantomjs-launcher": "~0.1.4",
+    "karma": "~0.12.0",
+    "karma-coverage": "~0.2.7",
+    "karma-jasmine": "~0.3.4",
+    "jasmine-core": "~2.1.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
